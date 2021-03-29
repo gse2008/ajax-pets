@@ -40,6 +40,22 @@
                 pet= "rabbit";
               }
 
+               if(feels="fluffy" && likes=="petted" && eats=="pets"){
+                pet = "dane";
+               }
+
+               if(feels="scaly" && likes=="petted" && eats=="carrots"){
+                pet = "hedgehog";
+               }
+
+               if(feels="fluffy" && likes=="ridden" && eats=="carrots"){
+                pet = "bird";
+               }
+               
+               if(feels="fluffy" && likes=="ridden" && eats=="pets"){
+                pet = "pig";
+               }
+
               let output = "";
               output += `<p>My pet is a: ${pet}</p>`;
               output += `<p>My pet feels: ${feels}</p>`;
